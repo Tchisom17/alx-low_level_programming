@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	//string initialization
+	/*string initialization*/
 	char Str[] = "\"Programming is like building a multilingual puzzle";
 	puts(Str);
 	return (0);
