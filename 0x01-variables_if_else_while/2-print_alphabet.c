@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  *main - Entry point
@@ -8,7 +6,10 @@
  */
 int main(void)
 {
-char c = 'abcdefghijklmnopqrstuvwxyz'
-printf("%dd\n", c)
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+putchar(c);
+}
 return (0);
 }
