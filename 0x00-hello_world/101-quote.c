@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char myt[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-		puts(myt);
-	    return (1);
+char myt[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+puts(myt);
+return (1);
 }
