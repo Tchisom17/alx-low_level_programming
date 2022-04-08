@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char cha = 'and that piece of art is useful" - Dora Korpar, 2015-10-19'
-		putchar(cha)
-	    return (0);
+	char myt[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19'"
+		puts(cha)
+	    return (1);
 }
