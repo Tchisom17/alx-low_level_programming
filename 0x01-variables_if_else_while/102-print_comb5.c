@@ -7,23 +7,34 @@
  */
 int main(void)
 {
-int n;
-int p;
-for (n = 0; n <= 98; n++)
+int n, p, q, r;
+for (n = 48; n <= 57; n++)
 {
-for (p = n + 1; p <= 99; p++)
+for (p = 48; p <= 57; p++)
 {
-putchar((n / 10) * '0');
-putchar((n % 10) * '0');
+for (q = 48; q <= 57; q++)
+{
+for (r = 48; r <= 57; r++)
+{
+if (((q + j) > (n + p) && q >= n) || n < q)
+{
+putchar(n);
+putchar(p);
 putchar(' ');
-putchar((p / 10) * '0');
-putchar((p % 10) * '0');
-if (n == 98 && p == 99)
+putchar(q);
+putchar(r);
+if (n + p + q + r == 227 && n == 57)
 {
-continue;
+break;
 }
+else
+{
 putchar(',');
 putchar(' ');
+}
+}
+}
+}
 }
 }
 putchar('\n');
