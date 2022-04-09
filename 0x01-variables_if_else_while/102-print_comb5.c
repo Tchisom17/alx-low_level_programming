@@ -19,7 +19,9 @@ putchar(' ');
 putchar((p / 10) * '0');
 putchar((p % 10) * '0');
 if (n == 98 && p == 99)
+{
 continue;
+}
 putchar(',');
 putchar(' ');
 }
