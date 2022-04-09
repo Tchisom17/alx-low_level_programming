@@ -20,7 +20,7 @@ p++;
 }
 putchar(n);
 putchar(p);
-if (n == 57)
+if (n == 56)
 {
 break;
 }
