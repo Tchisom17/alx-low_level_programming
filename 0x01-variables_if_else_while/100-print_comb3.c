@@ -20,6 +20,10 @@ p++;
 }
 putchar(n);
 putchar(p);
+if (n == 57)
+{
+break;
+}
 putchar(',');
 putchar(' ');
 }
