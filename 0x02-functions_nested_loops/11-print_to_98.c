@@ -22,9 +22,9 @@ while (n < 98)
 printf("%d", n);
 putchar(',');
 putchar(' ');
-if ( n == 97)
+if (n == 97)
 {
-printf("%d\n", n+1);
+printf("%d\n", n + 1);
 break;
 }
 n++;
