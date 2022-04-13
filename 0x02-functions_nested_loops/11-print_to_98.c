@@ -24,7 +24,7 @@ putchar(',');
 putchar(' ');
 if ( n == 97)
 {
-putchar('98');
+printf("%d\n", n);
 break;
 }
 n++;
