@@ -22,6 +22,11 @@ while (n < 98)
 printf("%d", n);
 putchar(',');
 putchar(' ');
+if ( n == 97)
+{
+putchar('98');
+break;
+}
 n++;
 }
 }
