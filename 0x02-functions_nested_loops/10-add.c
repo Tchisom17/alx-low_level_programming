@@ -8,5 +8,5 @@
 int add(int m, int n)
 {
 int o = m + n;
-return (0);
+return (o);
 }
