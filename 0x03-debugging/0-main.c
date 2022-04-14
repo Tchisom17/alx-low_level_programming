@@ -1,4 +1,4 @@
-#includfe "main.h"
+#include "main.h"
 /**
  * main - Entry point
  * Return: Always success(0)
